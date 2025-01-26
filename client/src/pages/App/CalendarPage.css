@@ -1,0 +1,16 @@
+/* src/pages/App/CalendarPage.css */
+
+/* Example styles for the agenda modal */
+.agenda-list {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .agenda-item {
+    margin-bottom: 10px;
+  }
+
+  .agenda-item p {
+    margin: 5px 0 0 20px;
+    color: #555;
+  }

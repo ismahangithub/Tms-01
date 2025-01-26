@@ -1,0 +1,13 @@
+from PIL import Image
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Open the uploaded image
+image_path = "/mnt/data/logo192.png.jpg"
+image = Image.open(image_path)
+
+# Display the image to ensure it loaded correctly
+plt.imshow(np.asarray(image))
+plt.axis("off")
+plt.title("Uploaded Image")
+plt.show()
